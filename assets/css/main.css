@@ -155,11 +155,14 @@
     top: 7rem !important;
     padding: 10rem;
 }
+.navbar{
+    z-index: 999999 !important;
+}
 
 @media screen and (max-width:768px) {
     .circle-container {
 
-        left: 0rem !important;
+        left: -2rem !important;
         top: 1rem !important;
     }
 }
