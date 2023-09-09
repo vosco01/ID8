@@ -7,7 +7,9 @@
     src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
-
+.fonts {
+    font-family: "Inter" !important;
+}
 
 .circle {
     border-radius: 50%;
@@ -155,7 +157,8 @@
     top: 7rem !important;
     padding: 10rem;
 }
-.navbar{
+
+.navbar {
     z-index: 999999 !important;
 }
 
@@ -164,5 +167,131 @@
 
         left: -2rem !important;
         top: 1rem !important;
+    }
+}
+
+.font-high {
+    font-size: 98px;
+    font-weight: 900;
+}
+
+@media screen and (max-width:1200px) {
+    .font-high {
+        font-size: 86px;
+        font-weight: 900;
+    }
+}
+
+@media screen and (max-width:1055px) {
+    .font-high {
+        font-size: 80px;
+        font-weight: 900;
+    }
+}
+
+.fonts-second3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    /* 140% */
+    letter-spacing: 1.25px;
+}
+
+.fonts-second2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* 140% */
+    letter-spacing: 1.25px;
+}
+
+.fonts-second1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    /* 140% */
+    letter-spacing: 1.25px;
+}
+
+.first-gif {
+    padding: 3rem;
+    padding-top: 200px;
+}
+
+@media screen and (min-width:1400px) {
+    .first-gif {
+        padding: 3rem;
+        padding-top: 120px;
+    }
+}
+
+.font-first {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.font-first2 {
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.font-first3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.font-first4 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width:992px) {
+    .font-first3 {
+        font-size: 64px;
+    }
+    .font-first4 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .font-first3 {
+        font-size: 48px;
+    }
+    .font-first4 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .font-first3 {
+        font-size: 40px;
+    }
+    .font-first4 {
+        font-size: 34px;
     }
 }
