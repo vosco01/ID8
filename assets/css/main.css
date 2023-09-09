@@ -159,7 +159,7 @@
 @media screen and (max-width:768px) {
     .circle-container {
 
-        left: 0rem !important;
+        left: -2rem !important;
         top: 1rem !important;
     }
 }
