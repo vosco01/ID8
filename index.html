@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Welcome to</title>
+	<title>ID8</title>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -22,7 +22,7 @@
 <body class="bg-black overflow-x-hidden ">
 
 	<!-- NAVBAR -->
-	<nav class="navbar navbar-expand-lg bg-black">
+	<nav class="navbar navbar-expand-lg w-100 position-fixed z-1">
 		<div class="container-fluid px-2 px-lg-4 mx-5 py-3">
 			<div class="">
 				<a class="navbar-brand" href="#">
@@ -60,18 +60,20 @@
 
 
 	<!-- HERO SECTION -->
-	<div id="carouselExample" class="carousel slide ">
+	<div id="carouselExample " class="carousel slide pt-4">
 		<div class="carousel-inner ">
 			<div class="carousel-item active">
-				<img src="./assets/images/banner.gif" class="d-block w-100 m-auto" alt="..." style="padding: 4rem;">
+				<img src="./assets/images/banner.gif" class="d-none d-lg-block w-100 m-auto" alt="..." style="padding: 4rem;">
+				<img src="./assets/images/banner.gif" class="d-block d-lg-none w-100 m-auto" alt="..." style="padding: 4rem; padding-top: 120px;">
 			</div>
 
 		</div>
 
 	</div>
+
 	<!-- bg effect section -->
 	<div class="row px-5 " data-aos="zoom-out" data-aos-duration="3000" data-aos-delay="600">
-		<div class="col-12 col-lg-6 p-5 text-center">
+		<div class="col-12 col-lg-6 p-3 p-lg-5 text-center">
 			<img class="w-100" src="./assets/images/bg-effect.gif" alt="bg-effect">
 		</div>
 		<div class="col-12 col-lg-6 text-white m-auto ">
@@ -132,7 +134,7 @@
 	</div>
 	<!-- Design with your -->
 	<div class="row px-5 mb-5 pb-5 section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-		<div class="col-12 text-white mt-1   pt-5">
+		<div class="col-12 text-white mt-0 mt-lg-1   pt-5">
 			<div class=" col-12 d-lg-block d-none" style="font-size: 8em;">
 				Design your identity with ID8</div>
 			<div class=" col-12 d-lg-none d-block" style="font-size: 3em;">
@@ -142,7 +144,7 @@
 		</div>
 	</div>
 	<!-- footer -->
-	<div class="row px-4 mt-5 pt-5" data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="200">
+	<div class="row px-5 mt-5 pt-5" data-aos="fade-down-right" data-aos-duration="1000" data-aos-delay="200">
 		<div class="col-12 text-white display-1">
 			Contact us
 		</div>
